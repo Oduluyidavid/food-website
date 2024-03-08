@@ -38,7 +38,7 @@ export const Footer = () => {
         </div>
         <ul className="flex justify-center items-start lg:items-center text-white text-lg m-3 lg:gap-10 gap-4">
           <li className="hover:text-orange-500 cursor-pointer">Home</li>
-          <li className="hover:text-orange-500 cursor-pointer">About Us</li>
+          <li className="hover:text-orange-500 cursor-pointer">About</li>
           <li className="hover:text-orange-500 cursor-pointer">Menu</li>
           <li className="hover:text-orange-500 cursor-pointer">Gallery</li>
           <li className="hover:text-orange-500 cursor-pointer">Contact</li>
@@ -48,13 +48,13 @@ export const Footer = () => {
       {/* top arrow button */}
 
       <div className="w-full bg-black p-4 flex flex-col justify-center items-center text-white font-semibold">
-        <h1 className="text-center">Copyright 2024, Designed & Develop BY BANKYBENNY, All Rights Reserved</h1>
-        <div id="icon-box" className="bg-orange-500 p-2 rounded-full hover:bg-green-500 cursor-pointer">
-          <Link>
-          <img src={toparrow} alt="fb icons" width={28} height={28} />
+        <h1 className="text-center">Copyright 2024, Designed & Developed by BANKYCODE, All Rights Reserved</h1>
+        <div id="icon-box" className="bg-green-500 p-2 rounded-full hover:bg-orange-500 cursor-pointer fixed bottom-12 right-6">
+          <Link to='home' spy={true} offset={-100} smooth={true}>
+            <img src={toparrow} alt="fb icons" width={40} height={40} />
           </Link>
-            
-          </div>
+
+        </div>
       </div>
     </>
   );
