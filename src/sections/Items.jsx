@@ -19,7 +19,7 @@ export const Items = () => {
   return (
     <section id="menu" className='w-full h-fit bg-slate-950 px-12 lg:px-20 lg:py-24 py-20 flex flex-col justify-center items-center gap-10'>
       <h1 data-aos="zoom-in" className="text-white font-bold text-6xl text-center">View Our Tasty<span className="text-green-500 italic"> Foods </span></h1>
-      <p data-aos="slide-up" className="text-white font-semibold text-xl text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, hic!</p>
+      <p data-aos="slide-up" className="text-white font-semibold text-xl text-center">Indulge in delicious moments.</p>
 
 
       <div id='grids' className='flex flex-col lg:flex-row justify-center items-center flex-wrap gap-10'>
@@ -27,7 +27,7 @@ export const Items = () => {
           <img src={dish1} alt="dish image" />
           <div className='w-full flex flex-col justify-center items-center gap-4 px-10'>
             <h1 className='text-white font-bold text-2xl'>HOT BURGER</h1>
-            <p className='text-white font-semibold text-lg text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione.</p>
+            <p className='text-white font-semibold text-lg text-center'>Food so good, it's worth the calorie splurge.</p>
             <button className='bg-green-500 px-8 py-4 rounded-full hover:bg-orange-500 hover:text-black font-bold mt-2'>ORDER NOW</button>
           </div>
         </div>
@@ -35,7 +35,7 @@ export const Items = () => {
           <img src={dish2} alt="dish image" />
           <div className='w-full flex flex-col justify-center items-center gap-4 px-10'>
             <h1 className='text-white font-bold text-2xl'>HOT BURGER</h1>
-            <p className='text-white font-semibold text-lg text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione.</p>
+            <p className='text-white font-semibold text-lg text-center'>Every bite is a sensory trip.</p>
             <button className='bg-green-500 px-8 py-4 rounded-full hover:bg-orange-500 hover:text-black font-bold mt-2'>ORDER NOW</button>
           </div>
         </div>
@@ -43,7 +43,7 @@ export const Items = () => {
           <img src={dish3} alt="dish image" />
           <div className='w-full flex flex-col justify-center items-center gap-4 px-10'>
             <h1 className='text-white font-bold text-2xl'>HOT BURGER</h1>
-            <p className='text-white font-semibold text-lg text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione.</p>
+            <p className='text-white font-semibold text-lg text-center'>You will always come back to your craving!.</p>
             <button className='bg-green-500 px-8 py-4 rounded-full hover:bg-orange-500 hover:text-black font-bold mt-2'>ORDER NOW</button>
           </div>
         </div>
@@ -51,7 +51,7 @@ export const Items = () => {
           <img src={dish4} alt="dish image" />
           <div className='w-full flex flex-col justify-center items-center gap-4 px-10'>
             <h1 className='text-white font-bold text-2xl'>HOT BURGER</h1>
-            <p className='text-white font-semibold text-lg text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ratione.</p>
+            <p className='text-white font-semibold text-lg text-center'>Our restaurant, your culinary haven.</p>
             <button className='bg-green-500 px-8 py-4 rounded-full hover:bg-orange-500 hover:text-black font-bold mt-2'>ORDER NOW</button>
           </div>
         </div>
