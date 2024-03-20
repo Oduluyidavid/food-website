@@ -25,7 +25,7 @@ const Header = () => {
     <nav className="flex justify-between items-center gap-4 bg-slate-800 lg:px-10 px-4 py-6 sticky top-0 z-30">
       <div id="logo">
         <h1 className="lg:text-[35px] text-[28px] text-orange-500 font-bold">
-          BANKYCODE
+          BANKY WEBSITE
         </h1>
       </div>
       <ul className="lg:flex justify-center items-center gap-10 hidden">
