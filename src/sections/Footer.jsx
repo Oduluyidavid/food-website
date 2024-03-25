@@ -47,7 +47,7 @@ export const Footer = () => {
       {/* top arrow button */}
 
       <div className="w-full bg-black p-4 flex flex-col justify-center items-center text-white font-semibold">
-        <h1 className="text-center">Copyright 2024, Designed & Developed by BANKYCODE, All rights reserved</h1>
+        <h1 className="text-center">Copyright 2024, Designed & Developed by BANKYCODE, All Rights Reserved</h1>
         <div id="icon-box" className="bg-green-500 p-2 rounded-full hover:bg-orange-500 cursor-pointer fixed bottom-12 right-6">
           <Link to='home' spy={true} offset={-100} smooth={true}>
             <img src={toparrow} alt="fb icons" width={40} height={40} />
