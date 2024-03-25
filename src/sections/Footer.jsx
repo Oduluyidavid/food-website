@@ -40,7 +40,6 @@ export const Footer = () => {
           <li className="hover:text-orange-500 cursor-pointer">Home</li>
           <li className="hover:text-orange-500 cursor-pointer">About</li>
           <li className="hover:text-orange-500 cursor-pointer">Menu</li>
-          <li className="hover:text-orange-500 cursor-pointer">Gallery</li>
           <li className="hover:text-orange-500 cursor-pointer">Contact</li>
         </ul>
       </footer>
